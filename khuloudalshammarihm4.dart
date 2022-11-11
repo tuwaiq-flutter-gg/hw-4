@@ -270,7 +270,48 @@ void main(List<String> arguments) {
 
  }else {print("Looks to me like you're rich!");}
  //* Boolean17.........#####
- 
+
+
+ String criteria="pizza bakery vegan fish rice";
+ var s= criteria.split(" ");
+
+
+ if(s.contains("pizza") && s.contains("fish") && s.contains("vegan")){
+   print("lets go");
+ }
+ else{
+   print("Sorry, we'll have to think of somewhere else.");
+ }
+
+//////////////////////////////
+ if(stepsAll<(goaALL/10)){
+   print("Way to get a good start today!");
+
+ }else if(stepsAll<(goaALL/2)){
+ print("You're almost halfway there!" );
+ }else if(stepsAll>(goaALL/2)){
+   print("You're over halfway there!");
+ }
+
+////////////////////////////////
+ const isInTarget=100, isBelowTarget=80, isAboveTarget=130;
+ var currentHR=102;
+
+ if(currentHR>isBelowTarget && currentHR<isAboveTarget){
+   print("You're right on track!");
+ }
+ else if(currentHR<isBelowTarget){
+   print("You're doing great, but try to push it a bit!");
+ }else {
+   print("You're on fire! Slow it down just a bit." );
+ }
+
+
+
+
+
+
+
 
 
 
