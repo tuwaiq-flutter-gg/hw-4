@@ -234,7 +234,36 @@ void main(List<String> arguments) {
 
  print("${percent}%");
  //* Logical Operators15........############
+
+ // 9 == 9
+ print(true);
+
+ // 9 != 9
+ print(false);
+
+ // 47 > 90
+ print(false);
+
+ // 47 < 90
+ print(true);
+
+ // 4 <= 4
+ print(true);
+
+ // 4 >= 5
+ print(true);
+
+ // (47 > 90) && (47 < 90)
+ print(false);
+
+ // !true
+ print(false);
+ //*If and If-Else Statements16.......#
  
+
+
+ 
+
 
      
 
