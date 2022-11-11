@@ -227,7 +227,17 @@ void main(List<String> arguments) {
      const double multipliedAsIntegers=x*y;
      print("ستتم العمليه لان لدينا نوع مزدوج في عملية الضرب ");
      //*Converting Types...........14###########
+
+ // const steps=4800, goal=10000, percentOfGoal=steps/goal;
+ const  newsteps = 4800, newgoal =10000, percent =newsteps/newgoal;
+
+
+ print("${percent}%");
+ //* Logical Operators15........############
+ 
+
      
+
 
 
 
