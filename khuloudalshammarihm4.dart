@@ -119,7 +119,7 @@ void main(List<String> arguments) {
    print(area);
 
 
-   //shed
+   
  const roomArea=area/2, perimeter=width+width+height+height;
 
  print(perimeter);
@@ -259,7 +259,21 @@ void main(List<String> arguments) {
  // !true
  print(false);
  //*If and If-Else Statements16.......#
+
+ var dollars=0;
+ dollars=10;
+ if(dollars==0){
+   print("Sorry, kid. You're broke!" );
+ }
+ else if(dollars<100&& dollars>0){
+   print("You've got some spending money!");
+
+ }else {print("Looks to me like you're rich!");}
+ //* Boolean17.........#####
  
+
+
+
 
 
  
