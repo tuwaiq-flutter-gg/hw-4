@@ -226,10 +226,10 @@ void main() {
 
   print("value can be change befor the cundtion ");
 
-  var  sTeps = 4000;
+  var sTeps = 4000;
   var sTepGoal = 6999;
   sTeps = 9000;
-  if ( sTepGoal<= 5000) {
+  if (sTepGoal <= 5000) {
     print("You're almost halfway there!");
   } else if (sTepGoal < 5000) {
     print("You're over halfway there!");
@@ -241,5 +241,28 @@ void main() {
     print("You're almost halfway there!");
   } else if (sTepGoal > 5000) {
     print("You're over halfway there!");
+  }
+
+  bool pizza = true;
+  bool fish = true;
+  bool vegan = true;
+  bool resF = fish & pizza & vegan;
+
+  if (resF == true) {
+    print("Let's go");
+  } else {
+    print("Sorry, we'll have to think of somewhere else");
+  }
+
+  var isInTarget = 120;
+  var isBelowTarget = 65;
+  var isAboveTarget = 200;
+  var currentHR = 100;
+  if (currentHR <= isBelowTarget) {
+    print("You're doing great, but try to push it a bit!");
+  } else if (currentHR <= isInTarget) {
+    print("You're right on track!");
+  } else if (currentHR <= isAboveTarget) {
+    print("ou're on fire! Slow it down just a bit.");
   }
 }
