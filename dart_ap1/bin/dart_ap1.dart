@@ -1,3 +1,4 @@
+import 'dart:ffi';
 import 'dart:math';
 
 void main() {
@@ -96,10 +97,10 @@ void main() {
   int even = 2;
   int odd = 1;
 
-  int x = even % 2;
-  int y = odd % 2;
-  bool z = x == 0;
-  bool f = y == 0;
+  int xx = even % 2;
+  int yy = odd % 2;
+  bool z = xx == 0;
+  bool f = yy == 0;
   print("if the reminder = 0 z will be $z other wise its $f meaning it odd ");
   const heartRate1 = 70;
   const heartRate2 = 65;
@@ -115,4 +116,65 @@ void main() {
   const double averageHRD = addedHRD / 3;
   print(averageHRD);
   print("  no theyare sets  dy defult");
+
+  double stepsG = 10000;
+  double stepsD = 3467;
+  double percentOfGoal = stepsD / stepsG * 100;
+  print("$percentOfGoal%");
+
+  var a10 = 10;
+  print(a10);
+  a10 += 5;
+  print(a10);
+  a10 = a10 * 2;
+  print(a10);
+
+  var piggyBank = 0;
+  print(" your mony =  $piggyBank");
+  piggyBank += 10;
+  print(" your mony =  $piggyBank");
+  piggyBank += 20;
+  print(" your mony =  $piggyBank");
+  var aa = 2;
+  piggyBank ~/= 2;
+  print(" your mony =  $piggyBank");
+  piggyBank *= 3;
+  print(" your mony =  $piggyBank");
+
+  piggyBank -= 3;
+  print(" your mony =  $piggyBank");
+
+  var stepss = 0;
+  stepss++;
+  double distance = 50;
+  dynamic distansInM = distance / 3;
+
+  print(" distance in meter = $distansInM");
+
+  print("i think  20");
+
+  print(10 + 2 * 5);
+
+  print(" i think 33");
+  print(4 * 9 - 6 / 2);
+
+  var heartR1 = 70;
+
+  var heartR2 = 80;
+
+  var heartR3 = 90;
+
+  var heartRA = (heartR1 + heartR2 + heartR3) / 3;
+  print(heartRA);
+
+  const tempInFahrenheit = 98.6;
+  const tempInCelsius = (tempInFahrenheit) - (32) * (5.0 / 9.0);
+  print(tempInCelsius);
+
+  int x = 10;
+  int y = 3;
+
+  var multipliedAsIntegers = x * y;
+  print(multipliedAsIntegers);
+
 }
