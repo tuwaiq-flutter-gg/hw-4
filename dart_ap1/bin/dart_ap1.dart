@@ -171,8 +171,8 @@ void main() {
   const tempInCelsius = (tempInFahrenheit) - (32) * (5.0 / 9.0);
   print(tempInCelsius);
 
-  int x = 10;
-  int y = 3;
+  double x = 10;
+  double y = 3;
 
   var multipliedAsIntegers = x * y;
   print(multipliedAsIntegers);
