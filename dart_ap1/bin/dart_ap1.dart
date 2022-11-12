@@ -174,7 +174,72 @@ void main() {
   double x = 10;
   double y = 3;
 
-  var multipliedAsIntegers = x * y;
+  var multipliedAsIntegers = x.toInt() * y.toInt();
+  var multipliedAsDoubles = x * y;
   print(multipliedAsIntegers);
+  print(multipliedAsDoubles);
 
+  (" you can changr the data by using functions double has more detiles it show you by point");
+
+  int Steps = 2000;
+  int goal = 10000;
+
+  double prcentOFGoal = Steps.toDouble() / goal.toDouble() * 100;
+  print(percentOfGoal);
+
+//9 == 9
+  print(true);
+//9 != 9
+  print(false);
+
+//47 > 90
+
+  print(false);
+
+//47 < 90
+  print(true);
+
+//4 <= 4
+  print(true);
+
+//4 >= 5
+  print(false);
+
+//(47 > 90) && (47 < 90)
+  print(true);
+
+//!true
+
+  print(false);
+
+  var dollars = 0;
+  dollars = 10;
+  dollars = 105;
+
+  if (dollars == 0) {
+    print("Sorry, kid. You're broke!");
+  } else if (dollars >= 10) {
+    print("You've got some spending money");
+  } else if (dollars >= 100) {
+    print("Looks to me like you're rich!");
+  }
+
+  print("value can be change befor the cundtion ");
+
+  var  sTeps = 4000;
+  var sTepGoal = 6999;
+  sTeps = 9000;
+  if ( sTepGoal<= 5000) {
+    print("You're almost halfway there!");
+  } else if (sTepGoal < 5000) {
+    print("You're over halfway there!");
+  }
+
+  if (sTepGoal < 1000) {
+    print("Way to get a good start today!");
+  } else if (sTepGoal < 5000) {
+    print("You're almost halfway there!");
+  } else if (sTepGoal > 5000) {
+    print("You're over halfway there!");
+  }
 }
