@@ -1,0 +1,340 @@
+main(){
+////** constant **////
+const friends = 181;
+print(friends);
+//friends = 100;
+print("the value has not been changed because it is constant");
+
+
+
+////** fitness tracking app **////
+const goalSteps = 10000;
+  print("Your step goal for the day is:");
+  print(goalSteps);
+
+////** variable **////
+var schooling = 12;
+ print(schooling);
+   schooling = 9;
+ print(schooling);
+print("change is allowed here beacause I used var word to define schooling opposite the const word that you can't make any changes on it");
+var steps1 = 0;
+print(steps1);
+steps1 = 2000;
+print(" Good job! You're well on your way to your daily goal.");
+
+
+////** Constant or Variable **////
+
+var number_of_likes = 50;
+  print("Because the number of likes is constantly changing ");
+  var number_of_comments = 7;
+print("Because the number of comments is constantly changing ");
+  const number_of_year = 2016;
+  print("Because the year of the post is constant and cannot be changed ");
+  const number_of_month = 12;
+  print("Because the month of the post is constant and cannot be changed ");
+  const number_of_day = 23;
+  print("Because the day of the post is constant and cannot be changed ");
+
+  const name1 = "Rahaf";
+  print("Because only the user himself can change the name");
+  var age = 23;
+  print("When the user puts his date of birth, it will save the age and change it automatically");
+  var number_of_steps_taken_today = 2000;
+  print("Will change throughout the day when he walks");
+  const goal_number_of_steps = 10000;
+  print("When he sets a goal, he cannot be changed until he reaches it");
+  var average_heart_rate = 100;
+  print("It changes with the heart rate");
+
+
+////** Types and Type Safety **////
+var firstDecimal = 23.6;
+var secondDecimal = 10.20;
+ bool trueOrFalse = true;
+// firstDecimal = trueOrFalse;
+print("A value of type Boolean can't be assigned to a variable of type Double");
+
+
+
+////** Type Inference and Required Values **////
+
+var x1 = "Me";
+//firstDecimal = x1;
+print("A value of type String can't be assigned to a variable of type Double");
+var y1 = 560;
+//firstDecimal = y1;
+ print("value of type int can't be assigned to a variable of type double");
+
+
+////**  Tracking Different Types **////
+   bool hasMetStepGoal = true;
+   
+
+
+
+
+////** Type Inference and Required Values **////
+
+
+   //String name = ;
+     String name = "Ahmad";
+     double distanceTraveled  = 0;
+     distanceTraveled = 54.3;
+/*var percentCompleted = 0;
+percentCompleted = 34.67;*/
+double percentCompleted = 0;
+percentCompleted = 34.67;
+
+////** Basic Arithmetic **////
+const width = 10;
+ const height = 20;
+ const area = width*height;
+print(area);
+const roomArea = area/2;
+print (roomArea);
+
+const perimeter = width+width+height+height;
+print(perimeter);
+
+
+
+
+
+
+
+
+const integerDivisionResult= 10/3;
+print(integerDivisionResult);
+
+
+const double double10= 10;
+const double double3= 3;
+const divisionResult = double10/double3;
+print(divisionResult);
+print("the same result");
+
+//////////
+
+const pi = 3.1415927;
+const radius = 5.0;
+var diameter = 2 * radius;
+var circumference = 2 * pi * radius;
+print(diameter);
+print(circumference);
+
+
+const a =12%5;
+const even = 20;
+const odd = 55;
+print(even%2);
+print(odd%2);
+print("when I use any even number divided by 2 the result will be 0 but when I use odd it will be 1 ");
+
+//////////////
+
+ const heartRate1= 80;
+ const heartRate2= 77;
+ const heartRate3= 98;
+ const addedHR = heartRate1+ heartRate2+ heartRate3;
+ const averageHR = addedHR/3;
+     print(averageHR);
+const double heartRate1D= 80;
+const double heartRate2D= 77;
+const double heartRate3D= 98;
+const addedHRD = heartRate1D+ heartRate2D+ heartRate3D;
+const averageHRD = addedHRD/3;
+print(averageHRD);
+print("It is the same result because when we use the dividing the result will be in double type ");
+//////////
+
+const double steps=   3467;
+const double goal = 10000;
+const double percentOfGoal = steps/goal * 100;
+print("$percentOfGoal%");
+
+
+
+////////////
+var v = 10;
+print(v);
+v+=5;
+print(v);
+v*=2;
+print(v);
+//////////////
+
+ double piggyBank= 0;
+piggyBank+= 10;
+print(piggyBank);
+piggyBank+= 20;
+print(piggyBank);
+piggyBank/= 2;
+print(piggyBank);
+piggyBank*= 3;
+print(piggyBank);
+piggyBank -= 3;
+print(piggyBank);
+
+
+////**  counting  **////
+
+var steps2 = 0;
+steps2 +=1;
+double distance = 50;
+distance/= 3;
+print(distance);
+
+
+////** Order of Operations **////
+
+print(20);
+print(10+2 *5 );
+print(10 + (2 * 5));
+print(15);
+print(4 * 9 - 6 / 2);
+print((4 * 9) - (6 / 2));
+
+
+
+const double HR1 = 80;
+const double HR2= 77;
+const double HR3= 98;
+const double avrHR= (HR1+HR2+HR3)/3;
+print(avrHR);
+
+const tempInFahrenheit = 98.6;
+const tempInCelsius = (tempInFahrenheit-32)*(5.0/9.0);
+print(tempInFahrenheit);
+print(tempInCelsius);
+
+////** Numeric Type Conversion **////
+ const int x= 10;
+ const double y = 3.2; 
+ //const int multipliedAsIntegers = x*y;
+ print("multiplication will not work because we have double value and the result must be saved in double type");
+const double multipliedAsIntegers = x*y;
+ print(multipliedAsIntegers);
+ print("now multiplication will work because the result saved in double ");
+
+ ////** Converting Types **////
+ 
+ //int steps3 = 1200;
+ //int goal3 = 10000;
+ //const double percentOfGoal= steps3/goal3 * 100;
+ const double steps3 = 1200;
+ const double goal3 = 10000;
+const double percentOfGoal3= steps3/goal3 * 100;
+print("$percentOfGoal3%");
+
+9 == 9;
+print(true);
+print( 9 == 9);
+9 != 9;
+print(false);
+print(9 != 9);
+47 > 90;
+print(false);
+print(47 > 90);
+47 < 90;
+print(true);
+print(47 < 90);
+4 <= 4;
+print(true);
+print(4 <= 4);
+4 >= 5;
+print(false);
+print(4 >= 5);
+(47 > 90) && (47 < 90);
+print(false);
+print((47 > 90) && (47 < 90));
+!true;
+print(false);
+print(!true);
+
+////** If and If-Else Statements **////
+ 
+ var dollars = 0;
+ if (dollars==0) {
+  print("Sorry, kid. You're broke!");
+
+
+ }
+  dollars = 10;
+   if (dollars==0) {
+  print("Sorry, kid. You're broke!");
+
+
+ }
+ else {
+  print("You've got some spending money");
+ }
+ dollars = 105;
+if (dollars==0) {
+  print("Sorry, kid. You're broke!");
+
+
+ }
+ else if (dollars <100 && dollars>0) {
+  print("You've got some spending money");
+ }
+ else {
+  print("Looks to me like you're rich!");
+ }
+
+
+////** Fitness Decisions **////
+ var steps4 = 4000;
+ const stepGoal = 10000;
+ if (steps4 < stepGoal/2){
+  print("You're almost halfway there!");
+ }
+else 
+{
+  print("Youre over halfway there!");
+}
+
+steps4 = 90;
+
+if (steps4 < stepGoal/10){
+  print("Way to get a good start today!");
+ }
+ else if (steps4 < stepGoal/2){
+  print("You're almost halfway there!");
+ }
+else 
+{
+  print("Youre over halfway there!");
+}
+
+////** Boolean **////
+ 
+ var AttributeeAreMatch=false;
+ if (AttributeeAreMatch) {
+  print("Let's go!");
+ }
+else {
+print("Sorry, we'll have to think of somewhere else");
+
+}
+
+
+////** App Exercise: Target Heart Rate **////
+const currentHR = 120;
+const isInTarget = 80;
+const isBelowTarget = 60;
+const isAboveTarget = 100;
+if (currentHR<isInTarget){
+  print("Youre right on track!");
+}
+else if (currentHR<isBelowTarget){
+  print("You're doing great, but try to push it a bit!");
+
+}
+else {
+  print("You're on fire! Slow it down just a bit");
+}
+
+
+}
