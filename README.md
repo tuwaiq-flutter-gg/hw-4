@@ -1,6 +1,6 @@
 # Homework 4
 
-## Lab 2
+## Lab 3
 
 ### Constants
 
